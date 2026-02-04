@@ -1,4 +1,13 @@
 // hier komt je code
+function check() {
+    if (document.getElementById("pw").value === "quinten") {
+        document.getElementById("login").style.display = "none";
+        document.getElementById("content").style.display = "block";
+    }
+}
+
+
+
 let wafle = document.querySelector("header .hamburger")
 let nav = document.querySelector("header nav")
 
