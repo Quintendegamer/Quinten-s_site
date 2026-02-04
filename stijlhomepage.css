@@ -96,3 +96,51 @@ footer h2 {
   letter-spacing: 2px;
   font-family: Arial, Helvetica, sans-serif;
 }
+/* LOGIN BOX */
+#login {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 2rem 3rem;
+  border-radius: 12px;
+  display: flex;
+  margin-top: 2rem;
+  align-items: center;
+  gap: 1rem;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(10px);
+  width: 97vw;
+  margin-left: 2rem;
+}
+
+/* TEKST */
+#login {
+  font-size: 1.1rem;
+  text-transform: lowercase;
+}
+
+/* INPUT */
+#login input {
+  padding: 0.5rem 0.8rem;
+  border-radius: 6px;
+  border: none;
+  outline: none;
+  font-size: 1rem;
+}
+
+/* BUTTON */
+#login button {
+  padding: 0.5rem 1.2rem;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  background: #ff4d4d;
+  color: white;
+  font-weight: bold;
+  transition:
+    background 0.2s ease,
+    transform 0.1s ease;
+}
+
+#login button:hover {
+  background: #ff1f1f;
+  transform: scale(1.05);
+}
