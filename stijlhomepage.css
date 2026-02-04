@@ -1,0 +1,98 @@
+:root {
+  font-size: 62.5%; /* zet je dit op 62.5%, dan is elke rem 10px waard, anders 16px */
+}
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+main ul.arrivals::-webkit-scrollbar {
+  display: none; /* geen scrollbalk bij de arrivals */
+}
+/* hier komt jouw css */
+body {
+  background-color: rgb(219, 198, 198);
+}
+body header {
+  display: block;
+  width: 100vw;
+  height: 10rem;
+  background-color: burlywood;
+}
+body header h1 {
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+  padding-top: 2.5rem;
+  font-size: 50px;
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+body main {
+  display: flex;
+  justify-content: center;
+  padding-top: 10rem;
+}
+body main nav ul li {
+  margin: 8rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main nav ul li a {
+  text-decoration: none;
+  font-size: 30px;
+  color: black;
+  text-transform: uppercase;
+  display: block;
+  background-color: burlywood;
+  padding: 3rem;
+  border-radius: 50px;
+}
+main nav ul li:hover a {
+  display: block;
+  background-image: repeating-linear-gradient(
+    -45deg,
+    burlywood,
+    burlywood 1rem,
+    rgb(219, 198, 198) 1rem,
+    rgb(219, 198, 198) 2rem
+  );
+  transform: scale(1.1);
+  transition: 0.8s;
+  border: 2px solid burlywood;
+}
+main h2 {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  background-color: burlywood;
+  height: 5vh;
+  align-items: center;
+  padding: 2rem;
+  width: 80%;
+  text-transform: uppercase;
+  font-weight: bold;
+  border-radius: 20px;
+  box-shadow: 10px 10px rgb(233, 201, 159);
+}
+footer {
+  display: block;
+  width: 100vw;
+  height: 8.5vh;
+  background-color: burlywood;
+}
+footer h2 {
+  display: block;
+  padding-top: 2rem;
+  padding-left: 2rem;
+  font-size: 20px;
+  font-weight: bold;
+  color: burlywood;
+  -webkit-text-stroke: 1px black;
+  letter-spacing: 2px;
+  font-family: Arial, Helvetica, sans-serif;
+}
