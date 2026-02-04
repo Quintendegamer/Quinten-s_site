@@ -66,7 +66,7 @@ main .welkom {
   background-image: url(groot/W.JPEG);
   height: 80vh;
   width: 100%;
-  background-size: contain;
+  background-size: cover;
   background-position: 100% center;
 }
 main h2 {
@@ -832,13 +832,13 @@ footer h1 {
   text-transform: uppercase;
   font-size: 15px;
 }
-.vid li.a {
+.vid li.videe {
   display: none;
 }
 @media (min-width: 1000px) {
   .vid {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(1fr);
     gap: 20px;
     list-style: none;
     padding: 0;
