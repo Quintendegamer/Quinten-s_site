@@ -62,7 +62,7 @@ header nav ul li:nth-child(1) {
   border-top: none;
 }
 main .welkom {
-  background-image: url(cristy/WWW.JPG);
+  background-image: url(cristy/WWW.jpg);
   height: 80vh;
   width: 100%;
   background-size: contain;
@@ -120,43 +120,43 @@ footer h1 {
 
 /*photos*/
 .arrivals li.A {
-  background-image: url(cristy/A.JPG);
+  background-image: url(cristy/A.jpg);
 }
 .arrivals li.B {
-  background-image: url(cristy/B.JPG);
+  background-image: url(cristy/B.jpg);
 }
 .arrivals li.C {
-  background-image: url(cristy/C.JPG);
+  background-image: url(cristy/C.jpg);
 }
 .arrivals li.D {
-  background-image: url(cristy/D.JPG);
+  background-image: url(cristy/D.jpg);
 }
 .arrivals li.E {
-  background-image: url(cristy/E.JPG);
+  background-image: url(cristy/E.jpg);
 }
 .arrivals li.F {
-  background-image: url(cristy/F.JPG);
+  background-image: url(cristy/F.jpg);
 }
 .arrivals li.G {
-  background-image: url(cristy/G.JPG);
+  background-image: url(cristy/G.jpg);
 }
 .arrivals li.H {
-  background-image: url(cristy/H.JPG);
+  background-image: url(cristy/H.jpg);
 }
 .arrivals li.I {
-  background-image: url(cristy/I.JPG);
+  background-image: url(cristy/I.jpg);
 }
 .arrivals li.J {
-  background-image: url(cristy/J.JPG);
+  background-image: url(cristy/J.jpg);
 }
 .arrivals li.K {
-  background-image: url(cristy/K.JPG);
+  background-image: url(cristy/K.jpg);
 }
 .arrivals li.L {
-  background-image: url(cristy/L.JPG);
+  background-image: url(cristy/L.jpg);
 }
 .arrivals li.M {
-  background-image: url(cristy/M.JPG);
+  background-image: url(cristy/M.jpg);
 }
 .arrivals li.N {
   background-image: url(cristy/N.JPG);
@@ -340,16 +340,16 @@ footer h1 {
   background-image: url(cristy/VVV.JPG);
 }
 .arrivals li.WWW {
-  background-image: url(cristy/WWW.JPG);
+  background-image: url(cristy/WWW.jpg);
 }
 .arrivals li.XXX {
-  background-image: url(cristy/XXX.JPG);
+  background-image: url(cristy/XXX.jpg);
 }
 .arrivals li.YYY {
   background-image: url(cristy/YYY.png);
 }
 .arrivals li.ZZZ {
-  background-image: url(cristy/ZZZ.JPG);
+  background-image: url(cristy/ZZZ.jpg);
 }
 @media (min-width: 700px) {
   main .arrivals {
@@ -357,4 +357,3 @@ footer h1 {
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   }
 }
-
